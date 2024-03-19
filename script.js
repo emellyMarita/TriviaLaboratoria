@@ -16,5 +16,5 @@ function mostrarPrimeraPantalla(){
 
 function mostrarSegundaPantalla(){
   document.getElementById('subject').style.display = "none";
-  document.getElementById('questionTwo').style.display = "block";
+  document.getElementById('questionThree').style.display = "block";
 }
