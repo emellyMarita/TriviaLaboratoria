@@ -13,3 +13,8 @@ function mostrarPrimeraPantalla(){
   document.getElementById('subject').style.display = "none";
   document.getElementById('questionOne').style.display = "block";
 }
+
+function mostrarSegundaPantalla(){
+  document.getElementById('subject').style.display = "none";
+  document.getElementById('questionTwo').style.display = "block";
+}
