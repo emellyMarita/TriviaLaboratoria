@@ -1,6 +1,5 @@
 const nombreUsuario = document.getElementById('nombre'); /*<input class="sendname" type="text" id="nombre"
           placeholder="Ingresa tu nombre aquí"/>*/
-const respuestaBoton = document.getElementbyId('answer-buttons');
 
 function mostrarNombre(){
     const nombre = nombreUsuario.value; /*'diego'*/
@@ -20,8 +19,6 @@ function mostrarSegundaPantalla(){
   document.getElementById('questionThree').style.display = "block";
 }
 
-
-function siguientePregunta(){
-  nextButton.style.display
-  
+function next(){
+  alert ('2')
 }
