@@ -19,6 +19,8 @@ function mostrarSegundaPantalla(){
   document.getElementById('questionThree').style.display = "block";
 }
 
-function next(){
-  alert ('2')
+function nextone(){
+  document.getElementById('questionOne').style.display = "none";
+  document.getElementById('questionTwo').style.display = "block";
 }
+
