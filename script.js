@@ -9,4 +9,7 @@ function mostrarNombre(){
     document.getElementById('subject').style.display = "block";
 }
 
-
+function mostrarPrimeraPantalla(){
+  document.getElementById('subject').style.display = "none";
+  document.getElementById('questionOne').style.display = "block";
+}
