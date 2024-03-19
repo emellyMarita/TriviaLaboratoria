@@ -22,7 +22,7 @@ body{
   text-align: center;
 }
 
-.choose-subject, .questionOne{
+.choose-subject, .questionOne, .questionTwo{
   display:none;
 }
 
@@ -74,3 +74,5 @@ h1, p{
   height: 300px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
