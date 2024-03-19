@@ -59,7 +59,7 @@ h1, p{
 
 /*TERCERA PANTALLA*/
 
-.button-answer{
+.button-answer, .button-next{
   margin-top: 20px;
   height: 50px;
   padding-left: 20px;

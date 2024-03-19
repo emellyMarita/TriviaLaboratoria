@@ -24,3 +24,7 @@ function nextone(){
   document.getElementById('questionTwo').style.display = "block";
 }
 
+function nexttwo(){
+  document.getElementById('questionThree').style.display = "none";
+  document.getElementById('questionFour').style.display = "block";
+}
