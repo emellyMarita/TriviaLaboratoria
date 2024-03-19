@@ -13,15 +13,17 @@ body{
 }
 
 /*PRIMERA PANTALLA*/
-.login-container{
+.login-container, .choose-subject{
   padding: 20px 10px 40px 10px;
   margin: 20px 0px 40px 0px;
   background-color: #ffffff3a;
   border-radius: 50px;
   box-shadow: -1px 2px 7px 1px rgba(217, 217, 217, 0.466);
   text-align: center;
-  
-  display:block;
+}
+
+.choose-subject{
+  display:none;
 }
 
 
