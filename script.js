@@ -9,19 +9,19 @@ function mostrarNombre(){
     document.getElementById('subject').style.display = "block";
 }
 
-function mostrarPrimeraPantalla(){
+function preguntasCientificasPeruanas(){
   document.getElementById('subject').style.display = "none";
-  document.getElementById('questionOne').style.display = "block";
+  document.getElementById('cientificasPreguntaUno').style.display = "block";
 }
 
-function mostrarSegundaPantalla(){
+function preguntasDivulgadorasPeruanas(){
   document.getElementById('subject').style.display = "none";
   document.getElementById('questionThree').style.display = "block";
 }
 
 function nextone(){
-  document.getElementById('questionOne').style.display = "none";
-  document.getElementById('questionTwo').style.display = "block";
+  document.getElementById('cientificasPreguntaUno').style.display = "none";
+  document.getElementById('cientificasPreguntaDos').style.display = "block";
 }
 
 function nexttwo(){
