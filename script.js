@@ -136,6 +136,28 @@ function evaluarRespuestaP3(respuesta){
   
 }
 
+/*DIVULGADORAS PERUANAS -> MAPEO BOTONES DE PREGUNTA 1*/
+const respuestaIncorrecta7 = document.getElementById("answer-7");
+const respuestaCorrecta8 = document.getElementById("answer-8");
+const respuestaIncorrecta9 = document.getElementById("answer-9");
+
+
+
+function evaluarRespuestaP3(respuesta){
+  if(respuesta==8){
+      respuestaCorrecta8.classList.add("correct");
+      respuestaIncorrecta7.classList.add("incorrect");
+      respuestaIncorrecta9.classList.add("incorrect");
+      aciertos++;
+      console.log(aciertos);
+  } else {
+      respuestaCorrecta8.classList.add("correct");
+      respuestaIncorrecta7.classList.add("incorrect");
+      respuestaIncorrecta9.classList.add("incorrect");
+  }
+  
+}
+
 function irFinal(){
   document.getElementById('cientificasPreguntaTres').style.display = "none";
   document.getElementById('resultados').style.display = "block";
