@@ -214,7 +214,7 @@ function mostrarResultados(){
 
 function volverAInicio(){
   
-  document.getElementById('nombreUsuario').innerHTML = 
+  document.getElementById('playerName').innerHTML = 'Tu puntuacion
   document.getElementById('resultados').style.display='none'
   document.getElementById('login').style.display = 'block';
   
