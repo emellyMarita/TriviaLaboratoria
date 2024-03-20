@@ -47,6 +47,7 @@ function siguientedos(){
 function siguientetres(){
   document.getElementById('divulgadorasPreguntaTres').style.display = "none";
   document.getElementById('resultados').style.display = "block";
+  mostrarResultados();
 }
 
 
@@ -202,6 +203,8 @@ function evaluarRespuestaP6(respuesta){
   
 }
 
+
+
 function irFinal(){
   document.getElementById('cientificasPreguntaTres').style.display = "none";
   document.getElementById('resultados').style.display = "block";
@@ -210,9 +213,14 @@ function irFinal(){
 
 function mostrarResultados(){
   const nombre = nombreUsuario.value; 
-  document.getElementById('puntuacion').innerHTML = 'Hola ' + nombre + 'tu puntuación es: ' + aciertos;
+  document.getElementById('puntuacion').innerHTML = 'Hola ' + nombre + ' tu puntuación es: ' + aciertos;
 
 }
+
+
+
+
+
 
   function volverAInicio(){
   nombreUsuario.value = "";
