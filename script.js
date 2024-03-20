@@ -34,15 +34,15 @@ function nexttwo(){
 /* EVALUAR RESPUESTA */
 let aciertos = 0;
 
-/*CIENTIFICAS PERUANAS -> MAPEO DE BOTONES DE PREGUNTA 1*/
+/*CIENTIFICAS PERUANAS -> MAPEO BOTONES DE PREGUNTA 1*/
 const respuestaCorrecta = document.getElementById("answer-3");
 const respuestaIncorrecta = document.getElementById("answer-1");
 const respuestaIncorrecta2 = document.getElementById("answer-2");
 
 
 
-function evaluarRespuestaP1(respuesta = 1){
-  if(1==3){
+function evaluarRespuestaP1(respuesta){
+  if(respuesta==3){
       aciertos++;
       respuestaCorrecta.classList.add("correct");
       respuestaIncorrecta.classList.add("incorrect");
@@ -56,8 +56,8 @@ function evaluarRespuestaP1(respuesta = 1){
   
   // Ocultar la pregunta actual y mostrar la siguiente después de 30 segundos
     setTimeout(function() {
-        document.getElementById('librosPregunta1').style.display = "none";
-        document.getElementById('librosPregunta2').style.display = "block";
+        document.getElementById('cientificasPreguntaUno').style.display = "none";
+        document.getElementById('cientificasPreguntaDos').style.display = "block";
     }, 1000); 
   
 }
