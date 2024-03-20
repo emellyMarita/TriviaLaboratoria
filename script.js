@@ -209,13 +209,18 @@ function irFinal(){
 }
 
 function mostrarResultados(){
-  console.log(aciertos);
-}
-
-function volverAInicio(){
   
-  document.getElementById('playerName').innerHTML = 'Tu puntuacion
+  const nombre = nombreUsuario.value; 
+  console.log(nombre);
+  
+  document.getElementById('playerName').innerHTML = 'Hola'
+
+}
+{
+  function volverAInicio(){
+  
   document.getElementById('resultados').style.display='none'
   document.getElementById('login').style.display = 'block';
   
+}
 }
