@@ -41,7 +41,7 @@ body{
   border-radius: 20px;
 }
 
-h1, p, h2{
+h1, p, h2,h3{
   color:white;
 }
 
@@ -93,6 +93,7 @@ h1, p, h2{
   height: 320px;
   padding-left: 50px;
   padding-right: 20px;
+}
 
 
 
