@@ -213,6 +213,9 @@ function mostrarResultados(){
 }
 
 function volverAInicio(){
-  document.elementById('resultados=()').style.display='none'
-  document.elementById('login').style.display = 'block'
+  
+  document.getElementById('nombreUsuario').innerHTML = 
+  document.getElementById('resultados').style.display='none'
+  document.getElementById('login').style.display = 'block';
+  
 }
