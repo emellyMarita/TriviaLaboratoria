@@ -7,6 +7,7 @@ function mostrarNombre(){
     document.getElementById('playerName').innerHTML = "Hola " + nombre;
     document.getElementById('login').style.display = "none";
     document.getElementById('subject').style.display = "block";
+    document.getElementById('resultados').style.display = "none";
 }
 
 function preguntasCientificasPeruanas(){
@@ -224,13 +225,6 @@ function volverAInicio(){
   document.getElementById('resultados').style.display='none'
   document.getElementById('login').style.display = 'block';
   
-}
-
-function elegirOtroTema(){
-
-  document.getElementById('mostrarNombre').style.display ='none';
-  document.getElementById('choose-subject').style.display = 'block';
- 
 }
 
 
