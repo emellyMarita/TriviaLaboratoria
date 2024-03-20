@@ -31,22 +31,22 @@ function nexttwo(){
 
 function nextFinal(){
   document.getElementById('cientificasPreguntaTres').style.display = "none";
-  document.getElementById('pantallaVolverAJugar').style.display = "block";
+  document.getElementById('resultados').style.display = "block";
 }
 
 function siguienteuno(){
-  document.getElementById('cientificasPreguntaTres').style.display = "none";
-  document.getElementById('pantallaVolverAJugar').style.display = "block";
+  document.getElementById('divulgadorasPreguntaUno').style.display = "none";
+  document.getElementById('divulgadorasPreguntaDos').style.display = "block";
 }
 
 function siguientedos(){
-  document.getElementById('cientificasPreguntaTres').style.display = "none";
-  document.getElementById('pantallaVolverAJugar').style.display = "block";
+  document.getElementById('divulgadorasPreguntaDos').style.display = "none";
+  document.getElementById('divulgadorasPreguntaTres').style.display = "block";
 }
 
 function siguientetres(){
-  document.getElementById('cientificasPreguntaTres').style.display = "none";
-  document.getElementById('pantallaVolverAJugar').style.display = "block";
+  document.getElementById('divulgadorasPreguntaTres').style.display = "none";
+  document.getElementById('resultados').style.display = "block";
 }
 
 
