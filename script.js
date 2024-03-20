@@ -137,8 +137,8 @@ function evaluarRespuestaP3(respuesta){
 }
 
 /*DIVULGADORAS PERUANAS -> MAPEO BOTONES DE PREGUNTA 1*/
-const respuestaorrecta10 = document.getElementById("answer-10");
-const respuestaCorrecta11 = document.getElementById("answer-11");
+const respuestaCorrecta10 = document.getElementById("answer-10");
+const respuestaIncorrecta11 = document.getElementById("answer-11");
 const respuestaIncorrecta12 = document.getElementById("answer-12");
 
 
@@ -158,6 +158,50 @@ function evaluarRespuestaP4(respuesta){
   
 }
 
+/*DIVULGADORAS PERUANAS -> MAPEO BOTONES DE PREGUNTA 2*/
+const respuestaCorrecta13 = document.getElementById("answer-13");
+const respuestaIncorrecta14 = document.getElementById("answer-14");
+const respuestaIncorrecta15 = document.getElementById("answer-15");
+
+
+
+function evaluarRespuestaP5(respuesta){
+  if(respuesta==14){
+      respuestaCorrecta13.classList.add("incorrect");
+      respuestaIncorrecta14.classList.add("correct");
+      respuestaIncorrecta15.classList.add("incorrect");
+      aciertos++;
+      console.log(aciertos);
+  } else {
+      respuestaCorrecta10.classList.add("incorrect");
+      respuestaIncorrecta11.classList.add("correct");
+      respuestaIncorrecta12.classList.add("incorrect");
+  }
+  
+}
+
+/*DIVULGADORAS PERUANAS -> MAPEO BOTONES DE PREGUNTA 3*/
+const respuestaIncorrecta16 = document.getElementById("answer-16");
+const respuestaIncorrecta17 = document.getElementById("answer-17");
+const respuestaCorrecta18 = document.getElementById("answer-18");
+
+
+
+function evaluarRespuestaP6(respuesta){
+  if(respuesta==14){
+      respuestaIncorrecta16.classList.add("incorrect");
+      respuestaIncorrecta17.classList.add("incorrect");
+      respuestaCorrecta18.classList.add("correct");
+      aciertos++;
+      console.log(aciertos);
+  } else {
+      respuestaIncorrecta16.classList.add("incorrect");
+      respuestaIncorrecta17.classList.add("incorrect");
+      respuestaCorrecta18.classList.add("correct");
+  }
+  
+}
+
 function irFinal(){
   document.getElementById('cientificasPreguntaTres').style.display = "none";
   document.getElementById('resultados').style.display = "block";
@@ -168,4 +212,7 @@ function mostrarResultados(){
   console.log(aciertos);
 }
 
-
+function volverAInicio(){
+  document.elementById('resultados').style.display=''
+  documnet.elementById('nombre').style.display = 'block'
+}
