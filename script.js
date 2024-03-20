@@ -218,10 +218,18 @@ function mostrarResultados(){
 }
 
 
-  function volverAInicio(){
+function volverAInicio(){
   nombreUsuario.value = "";
   aciertos = 0;
   document.getElementById('resultados').style.display='none'
   document.getElementById('login').style.display = 'block';
+  
+}
+
+function elegirOtroTema(){
+  
+  
+  document.getElementById('resultados').style.display ='none'
+  document.getElementById('choose-subject').style.display = 'block';
   
 }
