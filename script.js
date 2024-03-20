@@ -137,23 +137,23 @@ function evaluarRespuestaP3(respuesta){
 }
 
 /*DIVULGADORAS PERUANAS -> MAPEO BOTONES DE PREGUNTA 1*/
-const respuestaIncorrecta7 = document.getElementById("answer-7");
-const respuestaCorrecta8 = document.getElementById("answer-8");
-const respuestaIncorrecta9 = document.getElementById("answer-9");
+const respuestaorrecta10 = document.getElementById("answer-10");
+const respuestaCorrecta11 = document.getElementById("answer-11");
+const respuestaIncorrecta12 = document.getElementById("answer-12");
 
 
 
-function evaluarRespuestaP3(respuesta){
-  if(respuesta==8){
-      respuestaCorrecta8.classList.add("correct");
-      respuestaIncorrecta7.classList.add("incorrect");
-      respuestaIncorrecta9.classList.add("incorrect");
+function evaluarRespuestaP4(respuesta){
+  if(respuesta==10){
+      respuestaCorrecta10.classList.add("correct");
+      respuestaIncorrecta11.classList.add("incorrect");
+      respuestaIncorrecta12.classList.add("incorrect");
       aciertos++;
       console.log(aciertos);
   } else {
-      respuestaCorrecta8.classList.add("correct");
-      respuestaIncorrecta7.classList.add("incorrect");
-      respuestaIncorrecta9.classList.add("incorrect");
+      respuestaCorrecta10.classList.add("correct");
+      respuestaIncorrecta11.classList.add("incorrect");
+      respuestaIncorrecta12.classList.add("incorrect");
   }
   
 }
