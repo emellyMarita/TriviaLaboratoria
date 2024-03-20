@@ -213,6 +213,6 @@ function mostrarResultados(){
 }
 
 function volverAInicio(){
-  document.elementById('resultados').style.display=''
-  documnet.elementById('nombre').style.display = 'block'
+  document.elementById('resultados=()').style.display='none'
+  document.elementById('login').style.display = 'block'
 }
