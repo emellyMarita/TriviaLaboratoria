@@ -228,7 +228,49 @@ function volverAInicio(){
 
 function elegirOtroTema(){
 
-  document.getElementById('resultados').style.display ='none';
+  document.getElementById('mostrarNombre').style.display ='none';
   document.getElementById('choose-subject').style.display = 'block';
-  window.alert();
+ 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
