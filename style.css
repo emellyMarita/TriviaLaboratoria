@@ -13,7 +13,7 @@ body{
 }
 
 /*PRIMERA PANTALLA*/
-.login-container, .choose-subject, .cientificasPreguntaUno, .cientificasPreguntaDos, .questionThree, .questionFour {
+.login-container, .choose-subject, .cientificasPreguntaUno, .cientificasPreguntaDos, .divulgadorasPreguntaUno, .divulgadorasPreguntaDos {
   padding: 20px 10px 40px 10px;
   margin: 20px 0px 40px 0px;
   background-color: #ffffff3a;
@@ -22,7 +22,7 @@ body{
   text-align: center;
 }
 
-.choose-subject, .cientificasPreguntaUno, .cientificasPreguntaDos, .questionThree, .questionFour{
+.choose-subject, .cientificasPreguntaUno, .cientificasPreguntaDos, .divulgadorasPreguntaUno, .divulgadorasPreguntaDos{
   display:none;
 }
 

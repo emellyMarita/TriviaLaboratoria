@@ -16,7 +16,7 @@ function preguntasCientificasPeruanas(){
 
 function preguntasDivulgadorasPeruanas(){
   document.getElementById('subject').style.display = "none";
-  document.getElementById('questionThree').style.display = "block";
+  document.getElementById('divulgadorasPreguntaUno').style.display = "block";
 }
 
 function nextone(){
@@ -25,6 +25,6 @@ function nextone(){
 }
 
 function nexttwo(){
-  document.getElementById('questionThree').style.display = "none";
-  document.getElementById('questionFour').style.display = "block";
+  document.getElementById('divulgadorasPreguntaUno').style.display = "none";
+  document.getElementById('divulgadorasPreguntaDos').style.display = "block";
 }
