@@ -40,7 +40,7 @@
             <button class="button-answer" type="button" id="answer-1" onclick="evaluarRespuestaP1(1)">Descubrió una nueva especie de planta endémica de la selva peruana.</button>
             <button class="button-answer" type="button" id="answer-2" onclick="evaluarRespuestaP1(2)">Publicó un libro sobre la biodiversidad marina del litoral peruano.</button>
             <button class="button-answer" type="button" id="answer-3" onclick="evaluarRespuestaP1(3)">Fundó el primer laboratorio de biología molecular de la universidad.</button>
-            <button class="button-next" type="button" id="nexttwo" onclick="preguntaDosCientificas()">Siguiente</button>
+            <button class="button-next" type="button" id="nextone" onclick="preguntaDosCientificas()">Siguiente</button>
 
   </div>
   
@@ -51,16 +51,16 @@
             <button class="button-answer" type="button" id="answer-5" onclick="evaluarRespuestaP2(5)">Biología marina</button>
             <button class="button-answer" type="button" id="answer-6" onclick="evaluarRespuestaP2(6)">Ingeniería ambiental</button>
             <button class="button-next" type="button" id="nexttwo" onclick="preguntaTresCientificas()">Siguiente</button>
-            <button class="button-next" type="button" id="nexttwo" onclick="preguntaDosCientificas()">Siguiente</button>
-
   </div>
   
   <div class="cientificasPreguntaTres" id="cientificasPreguntaTres">
     <h2 id="preguntatres">¿Cuál fue el descubrimiento más destacado de María Luisa Aguilar en el campo de la paleozoología?</h2>
         <img class="imagentres" src="https://cdn.glitch.global/941f90d0-d20d-4cac-b11c-5d0dbed41433/maria-luisa.png?v=1710941386637">
-            <button class="button-answer" type="button" id="answer-7" onclick="answer()">El análisis de fósiles de mamíferos prehistóricos en la región amazónica del Perú.</button>
-            <button class="button-answer" type="button" id="answer-8" onclick="answer()">La identificación de nuevos géneros y especies de reptiles marinos en la costa peruana.</button>
-            <button class="button-answer" type="button" id="answer-9" onclick="answer()">El estudio de la evolución de los dinosaurios terrestres en los Andes peruanos.</button>
+            <button class="button-answer" type="button" id="answer-7" onclick="evaluarRespuestaP3(7)">El análisis de fósiles de mamíferos prehistóricos en la región amazónica del Perú.</button>
+            <button class="button-answer" type="button" id="answer-8" onclick="evaluarRespuestaP3(8)">La identificación de nuevos géneros y especies de reptiles marinos en la costa peruana.</button>
+            <button class="button-answer" type="button" id="answer-9" onclick="evaluarRespuestaP3(9)">El estudio de la evolución de los dinosaurios terrestres en los Andes peruanos.</button>
+            <button class="button-next" type="button" id="nextFinal" onclick="irFinal()">Siguiente</button>
+
   </div>
   
   
@@ -69,29 +69,46 @@
    <div class="divulgadorasPreguntaUno" id="divulgadorasPreguntaUno">
     <h2 id="primeraPregunta">¿Cuál de las siguientes divulgadoras científicas peruanas se enfoca en el estudio de la ecología y la conservación de la biodiversidad?</h2>
         <img class="imagenCuatro" src="https://cdn.glitch.global/941f90d0-d20d-4cac-b11c-5d0dbed41433/1619202158466.jpeg?">
-            <button class="button-answer" type="button" id="answer-10" onclick="answer()">Alejandra Ruiz León</button><
-            <button class="button-answer" type="button" id="answer-11" onclick="answer()">Denisse Sotomayor</button>
-            <button class="button-answer" type="button" id="answer-12" onclick="answer()">Natalia Sobrevilla</button>
-            <button class="button-next" type="button" id="nexttwo" onclick="nexttwo()">Siguiente</button>
+            <button class="button-answer" type="button" id="answer-10" onclick="answer()">Alejandra Ruiz León</button><br>
+            <button class="button-answer" type="button" id="answer-11" onclick="answer()">Denisse Sotomayor</button><br>
+            <button class="button-answer" type="button" id="answer-12" onclick="answer()">Natalia Sobrevilla</button><br>
+            <button class="button-next" type="button" id="siguienteuno" onclick="siguienteuno()">Siguiente</button>
   </div>
   
   <div class="divulgadorasPreguntaDos" id="divulgadorasPreguntaDos">
     <h2 id="segundaPregunta">¿Cuál de las siguientes áreas de investigación es la principal especialidad de la divulgadora cientifica Aracely Quispe Neira?</h2>
-        <img class="imagenCinco" src="https://cdn.glitch.global/941f90d0-d20d-4cac-b11c-5d0dbed41433/Qispe-Neira.jpeg?v=1710882319154">
-            <button class="button-answer" type="button" id="answer-13" onclick="answer()">Biología marina</button>
-            <button class="button-answer" type="button" id="answer-14" onclick="answer()">Astronomía y astrofísica</button>
-            <button class="button-answer" type="button" id="answer-15" onclick="answer()">Ingeniería genética</button>
-            <button class="button-next" type="button" id="nexttwo" onclick="nexttwo()">Siguiente</button>
+        <img class="imagenCinco" src="https://cdn.glitch.global/941f90d0-d20d-4cac-b11c-5d0dbed41433/Qispe-Neira.jpeg?v=1710882319154"><br>
+            <button class="button-answer" type="button" id="answer-13" onclick="answer()">Biología marina</button><br>
+            <button class="button-answer" type="button" id="answer-14" onclick="answer()">Astronomía y astrofísica</button><br>
+            <button class="button-answer" type="button" id="answer-15" onclick="answer()">Ingeniería genética</button><br>
+            <button class="button-next" type="button" id="siguientedos" onclick="siguientedos()">Siguiente</button>
 
   </div>
   
   <div class="divulgadorasPreguntaTres" id="divulgadorasPreguntaTres">
     <h2 id="terceraPregunta">¿Cuál de las siguientes afirmaciones es verdadera sobre Carla Gonzales, PHd en Ciencias con mención en Fisiología?</h2>
         <img class="imagenSeis" src="https://cdn.glitch.global/941f90d0-d20d-4cac-b11c-5d0dbed41433/CarlaGonxales5-300x300.jpg?v=1710944562461">
-            <button class="button-answer" type="button" id="answer-16" onclick="answer()">Especialista en tecnología espacial.</button>
-            <button class="button-answer" type="button" id="answer-17" onclick="answer()">Investigadora en medicina tradicional china.</button>
-            <button class="button-answer" type="button" id="answer-18" onclick="answer()">Expertiza en la diversificación y valorización de productos andinos.</button>
+            <button class="button-answer" type="button" id="answer-16" onclick="answer()">Especialista en tecnología espacial.</button><br>
+            <button class="button-answer" type="button" id="answer-17" onclick="answer()">Investigadora en medicina tradicional china.</button><br>
+            <button class="button-answer" type="button" id="answer-18" onclick="answer()">Expertiza en la diversificación y valorización de productos andinos.</button><br>
+            <button class="button-next" type="button" id="siguientetres" onclick="siguientetres()">Finalizar</button>
   </div>
+  
+  
+  
+  
+  
+  
+  
+  
+    <!-- RESULTADOS -->
+  <div class="resultados" id="resultados">
+    <h2>Resultados</h2>
+            
+            <button type="button">Volver a inicio</button><br>
+            <button type="button">Elegir otro tema</button>
+  </div>
+  
   
   <script src="script.js"></script>
   

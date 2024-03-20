@@ -25,10 +25,29 @@ function nextone(){
 }
 
 function nexttwo(){
-  document.getElementById('divulgadorasPreguntaUno').style.display = "none";
-  document.getElementById('divulgadorasPreguntaDos').style.display = "block";
+  document.getElementById('cientificasPreguntaDos').style.display = "none";
+  document.getElementById('cientificasPreguntaTres').style.display = "block";
 }
 
+function nextFinal(){
+  document.getElementById('cientificasPreguntaTres').style.display = "none";
+  document.getElementById('pantallaVolverAJugar').style.display = "block";
+}
+
+function siguienteuno(){
+  document.getElementById('cientificasPreguntaTres').style.display = "none";
+  document.getElementById('pantallaVolverAJugar').style.display = "block";
+}
+
+function siguientedos(){
+  document.getElementById('cientificasPreguntaTres').style.display = "none";
+  document.getElementById('pantallaVolverAJugar').style.display = "block";
+}
+
+function siguientetres(){
+  document.getElementById('cientificasPreguntaTres').style.display = "none";
+  document.getElementById('pantallaVolverAJugar').style.display = "block";
+}
 
 
 /* EVALUAR RESPUESTA */
@@ -43,10 +62,10 @@ const respuestaIncorrecta2 = document.getElementById("answer-2");
 
 function evaluarRespuestaP1(respuesta){
   if(respuesta==3){
-      aciertos++;
       respuestaCorrecta.classList.add("correct");
       respuestaIncorrecta1.classList.add("incorrect");
       respuestaIncorrecta2.classList.add("incorrect");
+      aciertos++;
       console.log(aciertos);
   } else {
       respuestaCorrecta.classList.add("correct");
@@ -77,10 +96,10 @@ const respuestaIncorrecta6 = document.getElementById("answer-6");
 
 function evaluarRespuestaP2(respuesta){
   if(respuesta==5){
-      aciertos++;
       respuestaCorrecta5.classList.add("correct");
       respuestaIncorrecta4.classList.add("incorrect");
       respuestaIncorrecta6.classList.add("incorrect");
+      aciertos++;
       console.log(aciertos);
   } else {
       respuestaCorrecta5.classList.add("correct");
@@ -96,30 +115,35 @@ function preguntaTresCientificas(){
 }
 
 /*CIENTIFICAS PERUANAS -> MAPEO BOTONES DE PREGUNTA 3*/
-const respuestaIncorrecta4 = document.getElementById("answer-4");
-const respuestaCorrecta5 = document.getElementById("answer-5");
-const respuestaIncorrecta6 = document.getElementById("answer-6");
+const respuestaIncorrecta7 = document.getElementById("answer-7");
+const respuestaCorrecta8 = document.getElementById("answer-8");
+const respuestaIncorrecta9 = document.getElementById("answer-9");
 
 
 
-function evaluarRespuestaP2(respuesta){
-  if(respuesta==5){
+function evaluarRespuestaP3(respuesta){
+  if(respuesta==8){
+      respuestaCorrecta8.classList.add("correct");
+      respuestaIncorrecta7.classList.add("incorrect");
+      respuestaIncorrecta9.classList.add("incorrect");
       aciertos++;
-      respuestaCorrecta5.classList.add("correct");
-      respuestaIncorrecta4.classList.add("incorrect");
-      respuestaIncorrecta6.classList.add("incorrect");
       console.log(aciertos);
   } else {
-      respuestaCorrecta5.classList.add("correct");
-      respuestaIncorrecta4.classList.add("incorrect");
-      respuestaIncorrecta6.classList.add("incorrect");
+      respuestaCorrecta8.classList.add("correct");
+      respuestaIncorrecta7.classList.add("incorrect");
+      respuestaIncorrecta9.classList.add("incorrect");
   }
   
 }
 
-function preguntaTresCientificas(){
-  document.getElementById('cientificasPreguntaDos').style.display = "none";
-  document.getElementById('cientificasPreguntaTres').style.display = "block";
+function irFinal(){
+  document.getElementById('cientificasPreguntaTres').style.display = "none";
+  document.getElementById('resultados').style.display = "block";
+  mostrarResultados();
+}
+
+function mostrarResultados(){
+  console.log(aciertos);
 }
 
 
