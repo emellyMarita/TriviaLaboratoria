@@ -218,12 +218,9 @@ function mostrarResultados(){
 }
 
 
-
-
-
-
   function volverAInicio(){
   nombreUsuario.value = "";
+  aciertos = 0;
   document.getElementById('resultados').style.display='none'
   document.getElementById('login').style.display = 'block';
   
