@@ -22,7 +22,7 @@ body{
   text-align: center;
 }
 
-.choose-subject, .cientificasPreguntaUno, .cientificasPreguntaDos, .cientificasPreguntaTres, .divulgadorasPreguntaUno, .divulgadorasPreguntaDos{
+.choose-subject, .cientificasPreguntaUno, .cientificasPreguntaDos, .cientificasPreguntaTres, .divulgadorasPreguntaUno, .divulgadorasPreguntaDos, .divulgadorasPreguntaTres{
   display:none;
 }
 
