@@ -205,11 +205,6 @@ function evaluarRespuestaP6(respuesta){
     }
   }
 
-function disable(log){
-  if (){
-    
-}
-
 function irFinal(){
   document.getElementById('cientificasPreguntaTres').style.display = "none";
   document.getElementById('resultados').style.display = "block";
