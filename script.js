@@ -190,7 +190,7 @@ const respuestaCorrecta18 = document.getElementById("answer-18");
 
 
 function evaluarRespuestaP6(respuesta){
-  if(respuesta==14){
+  if(respuesta==18){
       respuestaIncorrecta16.classList.add("incorrect");
       respuestaIncorrecta17.classList.add("incorrect");
       respuestaCorrecta18.classList.add("correct");
