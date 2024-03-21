@@ -19,10 +19,17 @@ _Last updated: 28 Feb 2023_
 El primer día nos enfocamos en bocetear nuestra página web, cómo queríamos que se vea para empezar a codear.
 Aquí dejamos algunas evidencias. 
 
+<img rel='boceto1' src='https://cdn.glitch.global/941f90d0-d20d-4cac-b11c-5d0dbed41433/WhatsApp%20Image%202024-03-18%20at%2012.46.33%20PM.jpeg?v=1710991590461'><br>
+<img rel='boceto2' src='https://cdn.glitch.global/941f90d0-d20d-4cac-b11c-5d0dbed41433/WhatsApp%20Image%202024-03-18%20at%2012.46.50%20PM.jpeg?v=1710991587878'><br>
+<img rel='boceto3' src='https://cdn.glitch.global/941f90d0-d20d-4cac-b11c-5d0dbed41433/WhatsApp%20Image%202024-03-20%20at%2010.25.10%20PM.jpeg?v=1710991573299'><br>
+<img rel='boceto4' src='https://cdn.glitch.global/941f90d0-d20d-4cac-b11c-5d0dbed41433/WhatsApp%20Image%202024-03-18%20at%2012.47.09%20PM.jpeg?v=1710991582703'><br>
+
+Al terminar el boceto, queríamos empezar a codear en Javascript, pero el script insertado en el html estaba en la parte superior.
 
 ## Día 2
 
-
+En el segundo día, nos dimos cuento del error en el HTML al linkearlo al Javascript, era la posición del script. Funcionaba si lo poníamos en el parte de abajo.
+Empezamos a codear en Javascript y a ponerle el estilo en CSS. 
 
 ## Día 3
 
