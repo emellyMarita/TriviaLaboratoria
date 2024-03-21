@@ -215,8 +215,7 @@ function irFinal(){
 function mostrarResultados(){
   const nombre = nombreUsuario.value; 
   document.getElementById('puntuacion').innerHTML = 'Hola ' + nombre + ' tu puntuación es: ' + aciertos;
-
-}
+  }
 
 
 function volverAInicio(){
