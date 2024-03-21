@@ -84,9 +84,11 @@ function evaluarRespuestaP1(respuesta){
 }
 
 function preguntaDosCientificas(){
-  document.getElementById('cientificasPreguntaUno').style.display = "none";
+  
+  document.getElementById('cientificasPreguntaUno').style.display = "none"; 
   document.getElementById('cientificasPreguntaDos').style.display = "block";
-}
+}; 
+
 
 
 /*CIENTIFICAS PERUANAS -> MAPEO BOTONES DE PREGUNTA 2*/
@@ -203,8 +205,8 @@ function evaluarRespuestaP6(respuesta){
     }
   }
 
-function disable(aciertos){
-  if (aciertos==1);aciertos=''
+function disable('button-answer'){
+ disable('answer-3')=aciertos;
 }
 
 function irFinal(){
