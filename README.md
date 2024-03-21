@@ -17,6 +17,8 @@ _Last updated: 28 Feb 2023_
 ## Día 1
 
 El primer día nos enfocamos en bocetear nuestra página web, cómo queríamos que se vea para empezar a codear.
+Aquí dejamos algunas evidencias. 
+
 
 ## Día 2
 
