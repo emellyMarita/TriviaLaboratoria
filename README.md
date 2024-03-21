@@ -43,10 +43,15 @@ Reto:
 
 ## Día 3
 Agregamos una funcionalidad para proporcionar retroalimentación visual al usuario. Cuando el usuario elige una opción incorrecta, los botones que representan las alternativas incorrectas se destacan en color rojo. Por otro lado, si la opción seleccionada es correcta, los botones correspondientes se resaltan en color verde. 
+Completamos la última pantalla de nuestra trivia, donde mostramos el puntaje obtenido por el usuario. 
 
 
+Reto:Enfrentamos un reto al permitir que el usuario aumentara su puntaje al hacer clic repetidamente en el botón de la respuesta correcta. 
 
-Reto:
+## Día 4
+Implementamos una funcionalidad que deshabilita los botones de respuesta inmediatamente después de que el usuario haya respondido la pregunta. Al desactivar los botones, evitamos que el usuario pueda hacer clic nuevamente y aumentar su puntaje de manera incorrecta.
+
+
 
 
 ## Reflexiones y aprendizajes

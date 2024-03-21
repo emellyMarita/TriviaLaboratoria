@@ -64,10 +64,11 @@ const respuestaIncorrecta2 = document.getElementById("answer-2");
 
 function evaluarRespuestaP1(respuesta){
   if(respuesta==3){
+      aciertos++;
       respuestaCorrecta.classList.add("correct");
       respuestaIncorrecta1.classList.add("incorrect");
       respuestaIncorrecta2.classList.add("incorrect");
-      aciertos++;
+      bloquearBotonesP1();
       console.log(aciertos);
   } else {
       respuestaCorrecta.classList.add("correct");
@@ -82,6 +83,14 @@ function evaluarRespuestaP1(respuesta){
     }, 1000);*/
   
 }
+
+function bloquearBotonesP1(){
+  respuestaCorrecta.disabled = true;
+
+}
+
+
+
 
 function preguntaDosCientificas(){
   
@@ -204,6 +213,14 @@ function evaluarRespuestaP6(respuesta){
       respuestaCorrecta18.classList.add("correct");
     }
   }
+  
+  /*
+  function deshabilitar(respuesta){
+  if (aciertos==1){
+    evaluarRespuestaP1.disable=true;
+}
+
+  */
 
 function irFinal(){
   document.getElementById('cientificasPreguntaTres').style.display = "none";
