@@ -38,6 +38,7 @@ body{
 .button-login:hover{
   background-color:gold;
   color:white;
+  border-color: none;
 }
 
 .sendname{
@@ -62,10 +63,12 @@ h1, p, h2,h3{
   padding-right: 20px;
   border-radius: 20px;
   box-shadow: -1px 2px 7px 1px rgba(217, 217, 217, 0.466);
+  border:none;
 }
 
 .button-subject:hover{
   background-color:gold;
+  color:white;
 }
 
 /*TERCERA PANTALLA*/
@@ -77,6 +80,17 @@ h1, p, h2,h3{
   padding-right: 20px;
   border-radius: 20px;
   box-shadow: -1px 2px 7px 1px rgba(217, 217, 217, 0.466);
+  border:none;
+}
+
+.button-answer:hover{
+  background-color:grey;
+  color:white;
+}
+
+.button-next:hover{
+  background-color:gold;
+  color:white;
 }
 
 .imagentres{

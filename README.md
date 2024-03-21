@@ -56,7 +56,7 @@ Una imagen no se mostraba correctamente de acuerdo con los estilos que habíamos
 Corregimos el estilo de la imagen que no se adecuaba a los estilos establecidos.
 Implementamos una funcionalidad que deshabilita los botones de respuesta inmediatamente después de que el usuario haya respondido la pregunta. Al desactivar los botones, evitamos que el usuario pueda hacer clic nuevamente y aumentar su puntaje de manera incorrecta.
 
-Reto: Queda pendiente implementar una funcionalidad que deshabilite el botón "Siguiente" hasta que se haya seleccionado una opción de respuesta.
+Retos pendientes: Implementar una funcionalidad que deshabilite el botón "Siguiente" hasta que se haya seleccionado una opción de respuesta, Agregar una cuenta regresiva con un tiempo límite para responder cada pregunta. 
 
 
 ## Reflexiones y aprendizajes
