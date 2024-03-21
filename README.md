@@ -4,6 +4,9 @@
 ## Descripción
 Este proyecto consiste en una trivia web titulada "Mujeres Científicas", desarrollada como parte de la preparación para la Pre-Admisión del Bootcamp de Laboratoria. La trivia se centra en destacar el trabajo y las contribuciones de las mujeres en el ámbito científico, específicamente con un enfoque en las científicas y divulgadoras peruanas.
 
+Desarrollado utilizando HTML, CSS y JavaScript.
+
+
 ## Proceso de creación
 
 ### Boceto inicial
@@ -20,9 +23,9 @@ Al terminar el boceto, queríamos empezar a codear en Javascript, pero el script
 
 ### Decisión del diseño
 
-- Título: Se eligió el título "Mujeres Científicas" para resaltar el enfoque del proyecto en destacar el trabajo de las mujeres en la ciencia.
-Temática: La temática se decidió como "Científicas Peruanas" y "Divulgadoras Peruanas" para promover y celebrar las contribuciones locales en la ciencia y la divulgación científica.
-Color: El color de fondo #48B7A4 se seleccionó por su combinación de serenidad y vitalidad, transmitiendo profesionalismo y frescura al mismo tiempo.
+• Título: Se eligió el título "Mujeres Científicas" para resaltar el enfoque del proyecto en destacar el trabajo de las mujeres en la ciencia.
+• Temática: La temática se decidió como "Científicas Peruanas" y "Divulgadoras Peruanas" para promover y celebrar las contribuciones locales en la ciencia y la divulgación científica.
+• Color: El color de fondo #48B7A4 se seleccionó por su combinación de serenidad y vitalidad, transmitiendo profesionalismo y frescura al mismo tiempo.
 
 
 
