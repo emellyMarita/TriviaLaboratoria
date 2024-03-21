@@ -36,7 +36,8 @@ body{
 }
 
 .button-login:hover{
-background-color:gold
+  background-color:gold;
+  color:white;
 }
 
 .sendname{
@@ -64,7 +65,7 @@ h1, p, h2,h3{
 }
 
 .button-subject:hover{
-background-color:gold
+  background-color:gold;
 }
 
 /*TERCERA PANTALLA*/

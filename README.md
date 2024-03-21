@@ -18,8 +18,8 @@ Tomamos decisiones sobre el diseño, la disposición de los elementos y la estru
 
 ## Decisión del diseño
 
-• Título: Elegimos el título "Mujeres Científicas" para resaltar el enfoque del proyecto en destacar el trabajo de las mujeres en la ciencia.
-• Temática: La temática se decidió como "Científicas Peruanas" y "Divulgadoras Peruanas" para promover y celebrar las contribuciones locales en la ciencia y la divulgación científica.
+• Título: Elegimos el título "Mujeres Científicas" para resaltar el enfoque del proyecto en destacar el trabajo de las mujeres en la ciencia.<br>
+• Temática: La temática se decidió como "Científicas Peruanas" y "Divulgadoras Peruanas" para promover y celebrar las contribuciones locales en la ciencia y la divulgación científica.<br>
 • Color: Se selecccionó el color de fondo #48B7A4, ya que en la psicología del color, el verde a menudo se considera un color que transmite esperanza y crecimiento.
 
 ## Desarrollo 
@@ -40,6 +40,7 @@ Aplicamos estilos más avanzados utilizando propiedades como display: none y dis
 
 
 Reto: Implementar el flujo correspondiente al segundo tema de nuestra trivia, centrado en las "Divulgadoras Peruanas". 
+Implementar un flujo de navegación entre las pantallas de las preguntas de manera fluida.
 
 
 ## Día 3
@@ -48,13 +49,14 @@ Completamos la última pantalla de nuestra trivia, donde mostramos el puntaje ob
 
 
 Reto:Enfrentamos un reto al permitir que el usuario aumentara su puntaje al hacer clic repetidamente en el botón de la respuesta correcta. 
-
+Una imagen no se mostraba correctamente de acuerdo con los estilos que habíamos establecido.
 
 
 ## Día 4
+Corregimos el estilo de la imagen que no se adecuaba a los estilos establecidos.
 Implementamos una funcionalidad que deshabilita los botones de respuesta inmediatamente después de que el usuario haya respondido la pregunta. Al desactivar los botones, evitamos que el usuario pueda hacer clic nuevamente y aumentar su puntaje de manera incorrecta.
 
-
+Reto: Queda pendiente implementar una funcionalidad que deshabilite el botón "Siguiente" hasta que se haya seleccionado una opción de respuesta.
 
 
 ## Reflexiones y aprendizajes
