@@ -64,13 +64,13 @@ function evaluarRespuestaP1(respuesta){
       respuestaIncorrecta1.classList.add("incorrect");
       respuestaIncorrecta2.classList.add("incorrect");
       respuestaCorrecta3.classList.add("correct");
-      bloquearBotonesP1();
+      bloquearBotonesC1();
       console.log(aciertos);
   } else {
       respuestaIncorrecta1.classList.add("incorrect");
       respuestaIncorrecta2.classList.add("incorrect");
       respuestaCorrecta3.classList.add("correct");
-      bloquearBotonesP1();
+      bloquearBotonesC1();
   }
   /*Ocultar la pregunta actual y mostrar la siguiente después de 30 segundos
     setTimeout(function() {
@@ -80,7 +80,7 @@ function evaluarRespuestaP1(respuesta){
 }
 
 /*Función que bloquea botones de la pregunta 1*/
-function bloquearBotonesP1(){
+function bloquearBotonesC1(){
   respuestaIncorrecta1.disabled = true;
   respuestaIncorrecta2.disabled = true;
   respuestaCorrecta3.disabled = true;
@@ -97,7 +97,6 @@ const respuestaIncorrecta4 = document.getElementById("answer-4");
 const respuestaCorrecta5 = document.getElementById("answer-5");
 const respuestaIncorrecta6 = document.getElementById("answer-6");
 
-
 /*Evalúa las respuestar insertadas por el usuario*/
 function evaluarRespuestaP2(respuesta){
   if(respuesta==5){
@@ -106,22 +105,22 @@ function evaluarRespuestaP2(respuesta){
       respuestaCorrecta5.classList.add("correct");
       respuestaIncorrecta6.classList.add("incorrect");
       console.log(aciertos);
-      bloquearBotonesP2();
+      bloquearBotonesC2();
     
   } else {
       respuestaIncorrecta4.classList.add("incorrect");
       respuestaCorrecta5.classList.add("correct");
       respuestaIncorrecta6.classList.add("incorrect");
-      bloquearBotonesP2();
-         
-    }
-      function bloquearBotonesP2(){
+      bloquearBotonesC2();    
+    }   
+}
+
+/*Función que bloquea botones de la pregunta 2*/
+function bloquearBotonesC2(){
       respuestaIncorrecta4.disabled = true;
       respuestaCorrecta5.disabled = true;
       respuestaIncorrecta6.disabled = true;
   }
-  
-}
 
 function preguntaTresCientificas(){
   document.getElementById('cientificasPreguntaDos').style.display = "none";
@@ -144,15 +143,21 @@ function evaluarRespuestaP3(respuesta){
       respuestaIncorrecta9.classList.add("incorrect");
       aciertos++;
       console.log(aciertos);
+      bloquearBotonesC3();
   } else {
       respuestaIncorrecta7.classList.add("incorrect");
       respuestaCorrecta8.classList.add("correct");
       respuestaIncorrecta9.classList.add("incorrect");
+      bloquearBotonesC3();
   }
-  
-  
-  
 }
+
+/*Función que bloquea botones de la pregunta 3*/
+function bloquearBotonesC3(){
+      respuestaIncorrecta7.disabled = true;
+      respuestaCorrecta8.disabled = true;
+      respuestaIncorrecta9.disabled = true;
+  }
 
 /*Redirige al usuario a la última pantalla*/
 function irFinal(){
@@ -177,14 +182,22 @@ function evaluarRespuestaP4(respuesta){
       respuestaIncorrecta11.classList.add("incorrect");
       respuestaIncorrecta12.classList.add("incorrect");
       aciertos++;
+      bloquearBotonesD1();
       console.log(aciertos);
   } else {
       respuestaCorrecta10.classList.add("correct");
       respuestaIncorrecta11.classList.add("incorrect");
       respuestaIncorrecta12.classList.add("incorrect");
+      bloquearBotonesD1();
   }
-  
 }
+
+/*Función que bloquea botones de la pregunta 1*/
+function bloquearBotonesD1(){
+      respuestaCorrecta10.disabled = true;
+      respuestaIncorrecta11.disabled = true;
+      respuestaIncorrecta12.disabled = true;
+  }
 
 /*PREGUNTA 2*/
 /*Mapeamos los botones de la pregunta 2*/
@@ -200,14 +213,22 @@ function evaluarRespuestaP5(respuesta){
       respuestaIncorrecta14.classList.add("correct");
       respuestaIncorrecta15.classList.add("incorrect");
       aciertos++;
+      bloquearBotonesD2();
       console.log(aciertos);
   } else {
       respuestaCorrecta13.classList.add("incorrect");
       respuestaIncorrecta14.classList.add("correct");
       respuestaIncorrecta15.classList.add("incorrect");
-  }
-  
+      bloquearBotonesD2();
+  }  
 }
+
+/*Función que bloquea botones de la pregunta 1*/
+function bloquearBotonesD2(){
+      respuestaCorrecta13.disabled = true;
+      respuestaIncorrecta14.disabled = true;
+      respuestaIncorrecta15.disabled = true;
+  }
 
 /*PREGUNTA 3*/
 /*Mapeamos los botones de la pregunta 3*/
@@ -223,16 +244,23 @@ function evaluarRespuestaP6(respuesta){
       respuestaIncorrecta17.classList.add("incorrect");
       respuestaCorrecta18.classList.add("correct");
       aciertos++;
+      bloquearBotonesD3();
       console.log(aciertos);
       
   } else {
       respuestaIncorrecta16.classList.add("incorrect");
       respuestaIncorrecta17.classList.add("incorrect");
       respuestaCorrecta18.classList.add("correct");
+      bloquearBotonesD3();
     }
   }
   
-
+/*Función que bloquea botones de la pregunta 1*/
+function bloquearBotonesD3(){
+      respuestaIncorrecta16.disabled = true;
+      respuestaIncorrecta17.disabled = true;
+      respuestaCorrecta18.disabled = true;
+  }
 
 
 function mostrarResultados(){
@@ -246,7 +274,7 @@ function volverAInicio(){
   aciertos = 0;
   document.getElementById('resultados').style.display='none'
   document.getElementById('login').style.display = 'block';
-  habilitarBotones();
+  resetearBotones();
 }
 
 
@@ -255,31 +283,11 @@ function volverAElegirTema(){
   aciertos = 0;
   document.getElementById('resultados').style.display='none'
   document.getElementById('subject').style.display = 'block';
-  habilitarBotones();
+  resetearBotones();
 }
 
-function habilitarBotones(){
-  respuestaIncorrecta1.disabled = false;
-  respuestaIncorrecta2.disabled = false;
-  respuestaCorrecta3.disabled = false;
-  respuestaIncorrecta4.disabled = false;
-  respuestaCorrecta5.disabled = false;
-  respuestaIncorrecta6.disabled = false;
-  respuestaIncorrecta7.disabled = false;
-  respuestaCorrecta8.disabled = false;
-  respuestaIncorrecta9.disabled = false;
-  respuestaCorrecta10.disabled = false;
-  respuestaIncorrecta11.disabled = false;
-  respuestaIncorrecta12.disabled = false;
-  respuestaCorrecta13.disabled = false;
-  respuestaIncorrecta14.disabled = false;
-  respuestaIncorrecta15.disabled = false;
-  respuestaIncorrecta16.disabled = false;
-  respuestaIncorrecta17.disabled = false;
-  respuestaCorrecta18.disabled = false;
 
-}
-
+/*Reiniciar todos los botones*/
 
 const botonesAReiniciar = [
   document.getElementById("answer-1"),
@@ -302,8 +310,9 @@ const botonesAReiniciar = [
 
 function resetearBotones(){
   botonesAReiniciar.forEach(boton =>{
-    boton.disables ? false;
-  })
+    boton.disabled = false;
+    boton.classList.remove("correct", "incorrect");
+  });
 }
 
 
