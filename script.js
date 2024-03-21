@@ -143,13 +143,11 @@ function evaluarRespuestaP3(respuesta){
       respuestaCorrecta8.classList.add("correct");
       respuestaIncorrecta9.classList.add("incorrect");
       aciertos++;
-      bloquearBotonesP2();
       console.log(aciertos);
   } else {
       respuestaIncorrecta7.classList.add("incorrect");
       respuestaCorrecta8.classList.add("correct");
       respuestaIncorrecta9.classList.add("incorrect");
-      bloquearBotonesP2();
   }
   
   
@@ -239,9 +237,7 @@ function evaluarRespuestaP6(respuesta){
 
 function mostrarResultados(){
   const nombre = nombreUsuario.value; 
-  document.getElementById('puntuacion').innerHTML = 'Hola ' + nombre + ' tu puntuación es: ' + aciertos;
-  habilitarBotones();
-  
+  document.getElementById('puntuacion').innerHTML = 'Hola ' + nombre + ' tu puntuación es: ' + aciertos;  
   }
 
 
@@ -250,15 +246,65 @@ function volverAInicio(){
   aciertos = 0;
   document.getElementById('resultados').style.display='none'
   document.getElementById('login').style.display = 'block';
+  habilitarBotones();
+}
+
+
+function volverAElegirTema(){
+  nombreUsuario.value = "";
+  aciertos = 0;
+  document.getElementById('resultados').style.display='none'
+  document.getElementById('subject').style.display = 'block';
+  habilitarBotones();
 }
 
 function habilitarBotones(){
-  respuestaIncorrecta1.disabled = true;
-  respuestaIncorrecta2.disabled = true;
-  respuestaCorrecta3.disabled = true;
+  respuestaIncorrecta1.disabled = false;
+  respuestaIncorrecta2.disabled = false;
+  respuestaCorrecta3.disabled = false;
+  respuestaIncorrecta4.disabled = false;
+  respuestaCorrecta5.disabled = false;
+  respuestaIncorrecta6.disabled = false;
+  respuestaIncorrecta7.disabled = false;
+  respuestaCorrecta8.disabled = false;
+  respuestaIncorrecta9.disabled = false;
+  respuestaCorrecta10.disabled = false;
+  respuestaIncorrecta11.disabled = false;
+  respuestaIncorrecta12.disabled = false;
+  respuestaCorrecta13.disabled = false;
+  respuestaIncorrecta14.disabled = false;
+  respuestaIncorrecta15.disabled = false;
+  respuestaIncorrecta16.disabled = false;
+  respuestaIncorrecta17.disabled = false;
+  respuestaCorrecta18.disabled = false;
+
 }
 
 
+const botonesAReiniciar = [
+  document.getElementById("answer-1"),
+  document.getElementById("answer-2"),
+  document.getElementById("answer-3"),
+  document.getElementById("answer-4"),
+  document.getElementById("answer-5"),
+  document.getElementById("answer-6"),
+  document.getElementById("answer-7"),
+  document.getElementById("answer-8"),
+  document.getElementById("answer-9"),
+  document.getElementById("answer-10"),
+  document.getElementById("answer-11"),
+  document.getElementById("answer-12"),
+  document.getElementById("answer-13"),
+  document.getElementById("answer-14"),
+  document.getElementById("answer-15"),
+  document.getElementById("answer-16"),
+];
+
+function resetearBotones(){
+  botonesAReiniciar.forEach(boton =>{
+    boton.disables ? false;
+  })
+}
 
 
 
