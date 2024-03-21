@@ -19,7 +19,7 @@ _Last updated: 28 Feb 2023_
 El primer día nos enfocamos en bocetear nuestra página web, cómo queríamos que se vea para empezar a codear.
 Aquí dejamos algunas evidencias. 
 
-<span>src=https://cdn.glitch.global/941f90d0-d20d-4cac-b11c-5d0dbed41433/WhatsApp%20Image%202024-03-18%20at%2012.46.33%20PM.jpeg?v=1710991590461</span>
+<span>src="https://cdn.glitch.global/941f90d0-d20d-4cac-b11c-5d0dbed41433/WhatsApp%20Image%202024-03-18%20at%2012.46.33%20PM.jpeg?v=1710991590461"</span>
 
 
 
