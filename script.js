@@ -200,13 +200,13 @@ function evaluarRespuestaP6(respuesta){
       respuestaIncorrecta16.classList.add("incorrect");
       respuestaIncorrecta17.classList.add("incorrect");
       respuestaCorrecta18.classList.add("correct");
+    }
   }
-  
-}
+
 function disable(evaluarRespuestaP1){
   evaluarRespuestaP1(1).disable=true;
   evaluarRespuestaP1(2).disable=true;
-  evaluarRespuestaP1(2).disable=true;
+  evaluarRespuestaP1(3).disable=true;
 }
 
 function irFinal(){
