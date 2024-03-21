@@ -203,10 +203,8 @@ function evaluarRespuestaP6(respuesta){
     }
   }
 
-function disable(evaluarRespuestaP1){
-  evaluarRespuestaP1(1).disable=true;
-  evaluarRespuestaP1(2).disable=true;
-  evaluarRespuestaP1(3).disable=true;
+function disable(aciertos){
+  if (aciertos==1);aciertos=''
 }
 
 function irFinal(){
