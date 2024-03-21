@@ -14,6 +14,7 @@ En el primer día del proyecto, realizamos un boceto de la página web para esta
 Tomamos decisiones sobre el diseño, la disposición de los elementos y la estructura general de la trivia.
 
 ![Agregar un título](https://ghreadmeheaderimg.glitch.me/img/db3c1393c24cebd5713fd4b422200cce.jpg)
+![Agregar un título](https://ghreadmeheaderimg.glitch.me/img/1767db8582fe8a78f7493c1900d16cad.jpg)
 ![Agregar un título](https://ghreadmeheaderimg.glitch.me/img/2fd72b68caf1d2382477c5aed461f7e9.jpg)
 ![Agregar un título](https://ghreadmeheaderimg.glitch.me/img/66dacdd547e66ef13c913f5d5d69b38b.jpg)
 
