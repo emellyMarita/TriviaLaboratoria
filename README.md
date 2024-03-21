@@ -1,20 +1,12 @@
-# Nuestra Trivia!
+# Trivia "Mujeres Científicas"!
 
-This is a basic HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen ✨ immediately in the preview window. On the left you'll see the files that make up your site, including HTML, JavaScript, and CSS. You can upload assets like images or audio in `assets`. The rest is up to you and your imagination. 🦄
 
-_Last updated: 28 Feb 2023_
+## Descripción
+Este proyecto consiste en una trivia web titulada "Mujeres Científicas", desarrollada como parte de la preparación para la Pre-Admisión del Bootcamp de Laboratoria. La trivia se centra en destacar el trabajo y las contribuciones de las mujeres en el ámbito científico, específicamente con un enfoque en las científicas y divulgadoras peruanas.
 
-## Nuestros files
+## Proceso de creación
 
-← `README.md`: En este file hablaremos de nuestro proceso realizando el proyecto de la Trivia.
-
-← `index.html`: 
-
-← `style.css`: 
-
-← `script.js`: 
-
-## Día 1
+### Boceto inicial
 
 El primer día nos enfocamos en bocetear nuestra página web, cómo queríamos que se vea para empezar a codear.
 Aquí dejamos algunas evidencias. 
@@ -24,6 +16,23 @@ Aquí dejamos algunas evidencias.
 
 
 Al terminar el boceto, queríamos empezar a codear en Javascript, pero el script insertado en el html estaba en la parte superior.
+
+
+### Decisión del diseño
+
+- Título: Se eligió el título "Mujeres Científicas" para resaltar el enfoque del proyecto en destacar el trabajo de las mujeres en la ciencia.
+Temática: La temática se decidió como "Científicas Peruanas" y "Divulgadoras Peruanas" para promover y celebrar las contribuciones locales en la ciencia y la divulgación científica.
+Color: El color de fondo #48B7A4 se seleccionó por su combinación de serenidad y vitalidad, transmitiendo profesionalismo y frescura al mismo tiempo.
+
+
+
+### Desarrollo 
+
+
+
+
+
+
 
 ¿Qué aprendimos?<br>
 Anita:<br>
