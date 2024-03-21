@@ -15,6 +15,7 @@ Tomamos decisiones sobre el diseño, la disposición de los elementos y la estru
 
 <span>src="https://cdn.glitch.global/941f90d0-d20d-4cac-b11c-5d0dbed41433/WhatsApp%20Image%202024-03-18%20at%2012.46.33%20PM.jpeg?v=1710991590461"</span>
 
+
 ## Decisión del diseño
 
 • Título: Elegimos el título "Mujeres Científicas" para resaltar el enfoque del proyecto en destacar el trabajo de las mujeres en la ciencia.
@@ -38,7 +39,7 @@ Comenzamos la codificación en JavaScript para hacer la trivia interactiva.
 Aplicamos estilos más avanzados utilizando propiedades como display: none y display: block en CSS para mostrar u ocultar secciones según fuera necesario.
 
 
-Reto:
+Reto: Implementar el flujo correspondiente al segundo tema de nuestra trivia, centrado en las "Divulgadoras Peruanas". 
 
 
 ## Día 3
@@ -47,6 +48,8 @@ Completamos la última pantalla de nuestra trivia, donde mostramos el puntaje ob
 
 
 Reto:Enfrentamos un reto al permitir que el usuario aumentara su puntaje al hacer clic repetidamente en el botón de la respuesta correcta. 
+
+
 
 ## Día 4
 Implementamos una funcionalidad que deshabilita los botones de respuesta inmediatamente después de que el usuario haya respondido la pregunta. Al desactivar los botones, evitamos que el usuario pueda hacer clic nuevamente y aumentar su puntaje de manera incorrecta.
@@ -63,8 +66,4 @@ Emy: Aprendí a linkear el archivo HTML con CSS, secciones semánticas en HTML, 
 ¿Qué aprendimos?<br>
 Anita:<br>
 Emy: Colocar en hex los colores en el CSS, usar el display: 'none' en CSS para ocultar y 'block' para mostrar una secciòn, el uso del document.getElementById, ingresar preguntas y botones de respuestas al HTML.
-
-¿Qué aprendimos?<br>
-Anita:<br>
-Emy:
 

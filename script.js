@@ -306,6 +306,8 @@ const botonesAReiniciar = [
   document.getElementById("answer-14"),
   document.getElementById("answer-15"),
   document.getElementById("answer-16"),
+  document.getElementById("answer-17"),
+  document.getElementById("answer-18"),
 ];
 
 function resetearBotones(){
