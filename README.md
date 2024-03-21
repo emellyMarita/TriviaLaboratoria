@@ -25,24 +25,24 @@ Aquí dejamos algunas evidencias.
 
 Al terminar el boceto, queríamos empezar a codear en Javascript, pero el script insertado en el html estaba en la parte superior.
 
-¿Qué aprendimos?
-Anita:
-Emy: Aprendí a linkear el archivo HTML con CSS, secciones semánticas en HTML, uso de selectores en CSS, linkearlos al atributo class en el archivo HTML, configuración de formato en CSS.
+¿Qué aprendimos?<br>
+Anita:<br>
+Emy: Aprendí a linkear el archivo HTML con CSS, secciones semánticas en HTML, uso de selectores en CSS, linkearlos al atributo class en el archivo HTML, introducir un input, placeholder y botones.
 
 ## Día 2
 
 En el segundo día, nos dimos cuento del error en el HTML al linkearlo al Javascript, era la posición del script. Funcionaba si lo poníamos en el parte de abajo.
 Empezamos a codear en Javascript y a ponerle el estilo en CSS. 
 
-¿Qué aprendimos?
-Anita:
-Emy: 
+¿Qué aprendimos?<br>
+Anita:<br>
+Emy: Colocar en hex los colores en el CSS, usar el display: 'none' en CSS para ocultar y 'block' para mostrar una secciòn, el uso del document.getElementById, ingresar preguntas y botones de respuestas al HTML.
 
 ## Día 3
 
 
 
-¿Qué aprendimos?
-Anita:
+¿Qué aprendimos?<br>
+Anita:<br>
 Emy:
 
