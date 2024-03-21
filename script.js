@@ -203,7 +203,9 @@ function evaluarRespuestaP6(respuesta){
   }
   
 }
-
+function disable(aciertos){
+  if 
+}
 
 
 function irFinal(){
