@@ -31,6 +31,12 @@ body{
   margin: 0 70px 10px 70px;
   width: 350px;
   border-radius: 20px;
+  background-color:#d5ffff;
+  border:none; 
+}
+
+.button-login:hover(){
+  opacity
 }
 
 .sendname{
