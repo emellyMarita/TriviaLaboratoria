@@ -13,8 +13,7 @@ Lo desarrollamos utilizando HTML, CSS y JavaScript.
 En el primer día del proyecto, realizamos un boceto de la página web para establecer cómo queríamos que se viera inicialmente.
 Tomamos decisiones sobre el diseño, la disposición de los elementos y la estructura general de la trivia.
 
-<span>src="https://cdn.glitch.global/941f90d0-d20d-4cac-b11c-5d0dbed41433/WhatsApp%20Image%202024-03-18%20at%2012.46.33%20PM.jpeg?v=1710991590461"</span>
-
+![Agregar un título](https://cdn.glitch.global/941f90d0-d20d-4cac-b11c-5d0dbed41433/Boceto 5?v=1710991590461)
 
 ## Decisión del diseño
 
@@ -58,14 +57,4 @@ Implementamos una funcionalidad que deshabilita los botones de respuesta inmedia
 
 Retos pendientes: Implementar una funcionalidad que deshabilite el botón "Siguiente" hasta que se haya seleccionado una opción de respuesta, Agregar una cuenta regresiva con un tiempo límite para responder cada pregunta. 
 
-
-## Reflexiones y aprendizajes
-
-¿Qué aprendimos?<br>
-Anita:<br>
-Emy: Aprendí a linkear el archivo HTML con CSS, secciones semánticas en HTML, uso de selectores en CSS, linkearlos al atributo class en el archivo HTML, introducir un input, placeholder y botones.
-
-¿Qué aprendimos?<br>
-Anita:<br>
-Emy: Colocar en hex los colores en el CSS, usar el display: 'none' en CSS para ocultar y 'block' para mostrar una secciòn, el uso del document.getElementById, ingresar preguntas y botones de respuestas al HTML.
 
