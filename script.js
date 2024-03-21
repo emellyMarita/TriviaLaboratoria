@@ -205,8 +205,9 @@ function evaluarRespuestaP6(respuesta){
     }
   }
 
-function disable('button-answer'){
- disable('answer-3')=aciertos;
+function disable(log){
+  if (){
+    
 }
 
 function irFinal(){
